@@ -1,3 +1,2 @@
 # Ignorar os arquivos de resultado de simulação
 *.ans
-./**/*.ans
