@@ -5,4 +5,4 @@ Este é um repositório contendo os códigos e arquivos de simulação apresenta
 
 
 - [CEME-I-UERJ](#ceme-i-uerj)
-  - [Resolvendo circuitos magnéticos com Imãs Permanentes no SciLab](#resolvendo-circuitos-magnéticos-com-imãs-permanentes-no-scilab)
+  - [Resolvendo circuitos magnéticos com Imãs Permanentes no SciLab](https://github.com/cleitoncmf/CEME-I-UERJ/tree/master/EX_IMA_SCILAB)
