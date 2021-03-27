@@ -3,7 +3,14 @@
 
 Repositorio com o código escrito durante a solução de um circuito magnético com imã permanente.
 
-[TOC]
+
+
+- [Resolvendo circuitos magnéticos com Imãs Permanentes no SciLab](#resolvendo-circuitos-magnéticos-com-imãs-permanentes-no-scilab)
+  - [Recursos necessários](#recursos-necessários)
+  - [Circuito magnético](#circuito-magnético)
+  - [Resultados](#resultados)
+
+
 
 
 
@@ -45,5 +52,5 @@ Usando a metodologia estudada em aula, foi possível obter a seguinte reta de ca
 O gráfico seguinte, obtido no SciLab, apresenta duas curvas de desmagnetização (uma para cada temperatura) e três retas de carga (para diferentes comprimentos de imã). Observe que operando em 60ºC, o Imã produzirá diferentes valores de densidade de fluxo magnético dependendo do seu comprimento.
 
 <p align="center"> 
-    <img src="./Figuras/BXH.png">
+    <img src="./Figuras/BxH.png">
 </p>
