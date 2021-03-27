@@ -1,8 +1,10 @@
 # Resolvendo circuitos magnéticos com Imãs Permanentes no SciLab
 
 
+Repositorio com o código escrito durante a solução de um circuito magnético com imã permanente.
 
-[toc]
+[TOC]
+
 
 
 ## Recursos necessários
