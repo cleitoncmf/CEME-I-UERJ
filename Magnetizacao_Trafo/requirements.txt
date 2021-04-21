@@ -1,0 +1,4 @@
+numpy==1.18.5
+matplotlib==3.2.1
+ipywidgets
+__future__
