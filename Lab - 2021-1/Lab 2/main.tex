@@ -31,7 +31,7 @@
 
 
 
-\title{Laboratório de CEME - Lab 1\\Simulação de um transformador monofásico}
+\title{Laboratório de CEME - Lab 2\\Simulação de um sistema eletromecânico: Contatora}
 
 \author{Cleiton M. Freitas\\
 }
@@ -50,56 +50,31 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Objetivo}
 
-O objetivo desta experiência é montar a simulação de um transformador monofásico a partir das suas indutâncias próprias e mútuas. Também espera-se que o aluno desenvolva habilidades com ferramentas computacionais que serão utilizadas nas próximas aulas.  
-
-
-
+O objetivo desta experiência é montar a simulação de um sistema eletromecânico simples, o sistema de uma contatora. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Preliminares}
+\section{A contatora}
 
 
-As simulações deverão ser desenvolvidas na plataforma \href{https://colab.research.google.com/}{Google Colab} usando linguagem de programação \href{https://www.python.org/}{Python}. O Colab é uma plataforma da google que permite rodar "scripts interativos" diretamente do navegador. 
+Uma contatora é um sistema geralmente utilizado como chave eletromecânica.
 
 
-Sugiro que procurem os seguintes links para aprender os conceitos básicos do Google Colab:
+\begin{figure}
+\centering
+\subfloat[$i = 0$]{
+\includegraphics[width=0.48\linewidth]{./figuras/contatora_0}
+}
+\subfloat[$i \neq 0$]{
+\includegraphics[width=0.48\linewidth]{./figuras/contatora_1}
+}
+\caption{Esquema de uma contatora}
+\end{figure}
 
-\begin{itemize}
-\item \href{https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar}{Google Colab: O que é, Tutorial de Como Usar e Criar Códigos}
-
-\item \href{https://kenzie.com.br/blog/google-colab/}{Google Colab: o que é, como usar e quais são as vantagens?}
-
-\item \href{https://www.youtube.com/watch?v=Gojqw9BQ5qY}{MELHOR FORMA DE APRENDER PYTHON (Google Colab Notebook)}
-\end{itemize}
-
-
-Para a programação em si, também sugiro que procurem materiais de apoio, mas não vou indicar nenhum. De uma forma geral, será necessário apenas alguns conceitos básicos de programação: 
-
-\begin{itemize}
-\item Declaração de variáveis
-\item Desenvolvimento de scripts 
-\item Estruturas de repetição (Laço \textbf{for})
-\item Estruturas de decisão (\textbf{if}, \textbf{else})
-\item Definição de funções (\textbf{def})
-\end{itemize}
-
-
-Estes conceitos já foram estudados em IPD, embora possivelmente em outra linguagem. Então a ideia é basicamente se familiarizar com a notação do Python para fazer estas coisas.
-
-%As simulações que vamos fazer vão depender principalmente das bibliotecas
-%\href{https://numpy.org/}{NumPy} \href{https://numpy.org/}{NumPy}
-
-Para fazermos as simulações utilizaremos as bibliotecas contidas no módulo \href{https://www.scipy.org/}{SciPy}. Mais especificamente a biblioteca \href{https://numpy.org/}{NumPy}, para computação numérica, e a biblioteca \href{https://matplotlib.org/}{matplotlib}, para produção de gráficos. Deixo aqui alguns tutoriais que devem ser mais do que o suficiente para o nosso caso:
-
-\begin{itemize}
-\item \href{http://www.opl.ufc.br/pt/post/numpy/}{Introdução ao Numerical Python (Numpy)}
-
-\item \href{https://medium.com/ensina-ai/entendendo-a-biblioteca-numpy-4858fde63355}{Entendendo a biblioteca NumPy}
-
-\item \href{https://gepac.github.io/2019-05-17-intro-matplotlib/}{Introdução ao matplotlib}
-\end{itemize}
+ 
+ %https://www.youtube.com/watch?v=JHKL6CwKntQ&t=181s
+ %https://www.youtube.com/watch?v=OKiCSIbYXBU
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
