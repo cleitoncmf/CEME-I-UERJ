@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20210901112743" modified="D:20210901114711"/>
+<info created="D:20210901112743" modified="D:20210906100553"/>
 <preamble>\usepackage{rotating}</preamble>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
@@ -313,7 +313,7 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" stroke="red" fill="red" opacity="50%" stroke-opacity="opaque">
+<path layer="alpha" matrix="1 0 0 1 0 64" stroke="red" fill="red" opacity="50%" stroke-opacity="opaque">
 220 560 m
 220 480 l
 252 480 l
@@ -324,7 +324,7 @@ h
 336 672 m
 336 672 l
 </path>
-<path stroke="black" fill="darkgray">
+<path matrix="1 0 0 1 0 64" stroke="black" fill="darkgray">
 320 528 m
 256 528 l
 256 480 l
@@ -339,7 +339,7 @@ h
 320 480 l
 320 528 l
 </path>
-<path matrix="-1 0 -0 -1 576 1056" stroke="black" fill="darkgray">
+<path matrix="-1 0 0 -1 576 1120" stroke="black" fill="darkgray">
 320 528 m
 256 528 l
 256 480 l
@@ -354,16 +354,16 @@ h
 320 480 l
 320 528 l
 </path>
-<path matrix="1 0 0 1 104 0" stroke="red" fill="red" opacity="50%" stroke-opacity="opaque">
+<path matrix="1 0 0 1 104 64" stroke="red" fill="red" opacity="50%" stroke-opacity="opaque">
 220 560 m
 220 480 l
 252 480 l
 252 560 l
 h
 </path>
-<use name="mark/disk(sx)" pos="236 520" size="10" stroke="red"/>
-<use name="mark/cross(sx)" pos="340 520" size="12" stroke="red"/>
-<path matrix="1 0 0 0.666667 0 186.667" stroke="black" pen="fat" cap="1">
+<use matrix="1 0 0 1 0 64" name="mark/disk(sx)" pos="236 520" size="10" stroke="red"/>
+<use matrix="1 0 0 1 0 64" name="mark/cross(sx)" pos="340 520" size="12" stroke="red"/>
+<path matrix="1 0 0 0.666667 0 250.667" stroke="black" pen="fat" cap="1">
 220 560 m
 356 564 l
 220 564 m
@@ -377,43 +377,43 @@ h
 220 580 m
 356 584 l
 </path>
-<text matrix="1 0 0 1 -9 9" transformations="translations" pos="368 568" stroke="black" type="label" width="6.918" height="-0.017" depth="21.88" valign="baseline">\begin{turn}{-90} 
+<text matrix="1 0 0 1 -9 73" transformations="translations" pos="368 568" stroke="black" type="label" width="6.918" height="-0.017" depth="21.88" valign="baseline">\begin{turn}{-90} 
 Mola
 \end{turn}</text>
-<text matrix="1 0 0 1 -9 -37" transformations="translations" pos="368 568" stroke="black" type="label" width="6.918" height="-0.033" depth="30.89" valign="baseline">\begin{turn}{-90} 
+<text matrix="1 0 0 1 -9 27" transformations="translations" pos="368 568" stroke="black" type="label" width="6.918" height="-0.033" depth="30.89" valign="baseline">\begin{turn}{-90} 
 Bobina
 \end{turn}</text>
-<text matrix="1 0 0 1 -7 -8" transformations="translations" pos="268 604" stroke="black" type="label" width="53.3" height="6.918" depth="0" valign="baseline">Parte Móvel</text>
-<text matrix="1 0 0 1 -5 -144" transformations="translations" pos="268 604" stroke="black" type="label" width="46.52" height="6.808" depth="0" valign="baseline">Parte Fixa</text>
-<path stroke="black">
+<text matrix="1 0 0 1 -7 56" transformations="translations" pos="268 604" stroke="black" type="label" width="53.3" height="6.918" depth="0" valign="baseline">Parte Móvel</text>
+<text matrix="1 0 0 1 -5 -80" transformations="translations" pos="268 604" stroke="black" type="label" width="46.52" height="6.808" depth="0" valign="baseline">Parte Fixa</text>
+<path matrix="1 0 0 1 0 64" stroke="black">
 144 448 m
 432 448 l
 </path>
-<path stroke="black">
+<path matrix="1 0 0 1 0 64" stroke="black">
 432 448 m
 416 432 l
 </path>
-<path matrix="1 0 0 1 -48 0" stroke="black">
+<path matrix="1 0 0 1 -48 64" stroke="black">
 432 448 m
 416 432 l
 </path>
-<path matrix="1 0 0 1 -96 0" stroke="black">
+<path matrix="1 0 0 1 -96 64" stroke="black">
 432 448 m
 416 432 l
 </path>
-<path matrix="1 0 0 1 -144 0" stroke="black">
+<path matrix="1 0 0 1 -144 64" stroke="black">
 432 448 m
 416 432 l
 </path>
-<path matrix="1 0 0 1 -192 0" stroke="black">
+<path matrix="1 0 0 1 -192 64" stroke="black">
 432 448 m
 416 432 l
 </path>
-<path matrix="1 0 0 1 -240 0" stroke="black">
+<path matrix="1 0 0 1 -240 64" stroke="black">
 432 448 m
 416 432 l
 </path>
-<path matrix="1 0 0 1 -288 0" stroke="black">
+<path matrix="1 0 0 1 -288 64" stroke="black">
 432 448 m
 416 432 l
 </path>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.24">
-<info created="D:20210901134433" modified="D:20210906100843"/>
+<info created="D:20210906104401" modified="D:20210906104401"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -312,138 +312,67 @@ h
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" matrix="1 0 0 1 -32 56" stroke="red" fill="red" opacity="50%" stroke-opacity="opaque">
-220 560 m
-220 480 l
-252 480 l
-252 560 l
+<path layer="alpha" matrix="0.2 0 0 0.75 201.6 160" stroke="black">
+112 640 m
+128 640 l
+144 656 l
+176 624 l
+208 656 l
+240 624 l
+256 640 l
+272 640 l
+</path>
+<path matrix="1 0 0 1 0 -24" stroke="black">
+12 0 0 12 160 612 e
+</path>
+<path stroke="black">
+160 600 m
+160 640 l
+224 640 l
+</path>
+<path matrix="1 0 0 1 -8 -8" stroke="black">
+320 664 m
+320 544 l
+448 544 l
+448 664 l
 h
 </path>
-<path matrix="1 0 0 1 -32 0" stroke="black" cap="1">
-336 672 m
-336 672 l
+<path stroke="black">
+160 576 m
+160 544 l
+312 544 l
 </path>
-<path matrix="1 0 0 1 -32 56" stroke="black" fill="darkgray">
-320 528 m
-256 528 l
-256 480 l
-192 480 l
-192 528 l
-160 528 l
-160 448 l
-416 448 l
-416 528 l
-384 528 l
-384 480 l
-320 480 l
-320 528 l
+<path stroke="black">
+252.8 640 m
+312 640 l
 </path>
-<path matrix="-1 0 0 -1 544 1120" stroke="black" fill="darkgray">
-320 528 m
-256 528 l
-256 480 l
-192 480 l
-192 528 l
-160 528 l
-160 448 l
-416 448 l
-416 528 l
-384 528 l
-384 480 l
-320 480 l
-320 528 l
+<path matrix="1 0 0 1 16 12" stroke="black">
+280 624 m
+280 616 l
 </path>
-<path matrix="1 0 0 1 72 56" stroke="red" fill="red" opacity="50%" stroke-opacity="opaque">
-220 560 m
-220 480 l
-252 480 l
-252 560 l
-h
+<path matrix="1 0 0 1 4 8" stroke="black">
+288 624 m
+296 624 l
 </path>
-<use matrix="1 0 0 1 -32 56" name="mark/disk(sx)" pos="236 520" size="10" stroke="red"/>
-<use matrix="1 0 0 1 -32 56" name="mark/cross(sx)" pos="340 520" size="12" stroke="red"/>
-<path matrix="1 0 0 1 0 64" stroke="black">
-128 432 m
-128 416 l
+<path matrix="1 0 0 1 4 -72" stroke="black">
+288 624 m
+296 624 l
 </path>
-<path matrix="1 0 0 1 0 64" stroke="black">
-160 432 m
-160 416 l
+<text matrix="1 0 0 1 -5 0" transformations="translations" pos="136 584" stroke="black" type="label" width="14.053" height="6.812" depth="1.49" valign="baseline" style="math">V_{in}</text>
+<text matrix="1 0 0 1 158 6" transformations="translations" pos="136 584" stroke="black" type="label" width="6.511" height="6.177" depth="0" valign="baseline" size="Large" style="math">e</text>
+<text matrix="1 0 0 1 97 29" transformations="translations" pos="136 584" stroke="black" type="label" width="10.81" height="9.803" depth="0" valign="baseline" size="Large" style="math">R</text>
+<text matrix="1 0 0 1 -30 -6" transformations="translations" pos="368 600" stroke="black" type="label" width="85.448" height="9.803" depth="2.79" valign="baseline" size="Large">Circuito Mag.</text>
+<path matrix="1 0 0 1 -120 -26" stroke="black">
+280 624 m
+280 616 l
 </path>
-<path matrix="1 0 0 1 0 64" stroke="black">
-224 432 m
-224 416 l
+<path matrix="1 0 0 1 -132 -30" stroke="black">
+288 624 m
+296 624 l
 </path>
-<path matrix="1 0 0 1 0 64" stroke="black">
-288 432 m
-288 416 l
+<path matrix="1 0 0 1 -132 -43" stroke="black">
+288 624 m
+296 624 l
 </path>
-<path matrix="1 0 0 1 0 64" stroke="black">
-352 432 m
-352 416 l
-</path>
-<path matrix="1 0 0 1 0 64" stroke="black">
-384 432 m
-384 416 l
-</path>
-<path matrix="1 0 0 1 0 64" stroke="black" arrow="ptarc/normal" rarrow="ptarc/normal">
-128 424 m
-160 424 l
-</path>
-<path matrix="1 0 0 1 0 64" stroke="black" arrow="ptarc/normal" rarrow="ptarc/normal">
-160 424 m
-224 424 l
-</path>
-<path matrix="1 0 0 1 64 64" stroke="black" arrow="ptarc/normal" rarrow="ptarc/normal">
-160 424 m
-224 424 l
-</path>
-<path matrix="1 0 0 1 128 64" stroke="black" arrow="ptarc/normal" rarrow="ptarc/normal">
-160 424 m
-224 424 l
-</path>
-<path matrix="1 0 0 1 0 64" stroke="black" arrow="ptarc/normal" rarrow="ptarc/normal">
-352 424 m
-384 424 l
-</path>
-<text matrix="1 0 0 1 -11 56" transformations="translations" pos="248 600" stroke="black" type="label" width="38.642" height="6.428" depth="1.93" valign="baseline" style="math">\mu_r = 500</text>
-<text matrix="1 0 0 1 -11 40" transformations="translations" pos="248 600" stroke="black" type="label" width="39.103" height="6.808" depth="0" valign="baseline" style="math">P = 2cm</text>
-<text matrix="1 0 0 1 -1 -123" transformations="translations" pos="248 600" stroke="black" type="label" width="18.04" height="6.42" depth="0" valign="baseline" style="math">2cm</text>
-<text matrix="1 0 0 1 63 -123" transformations="translations" pos="248 600" stroke="black" type="label" width="18.04" height="6.42" depth="0" valign="baseline" style="math">2cm</text>
-<text matrix="1 0 0 1 -65 -123" transformations="translations" pos="248 600" stroke="black" type="label" width="18.04" height="6.42" depth="0" valign="baseline" style="math">2cm</text>
-<text matrix="1 0 0 1 -113 -123" transformations="translations" pos="248 600" stroke="black" type="label" width="18.04" height="6.42" depth="0" valign="baseline" style="math">1cm</text>
-<text matrix="1 0 0 1 111 -123" transformations="translations" pos="248 600" stroke="black" type="label" width="18.04" height="6.42" depth="0" valign="baseline" style="math">1cm</text>
-<path matrix="0 1 -1 0 824 200" stroke="black">
-384 432 m
-384 416 l
-</path>
-<path matrix="1 0 0 1 0 56" stroke="black" rarrow="ptarc/normal">
-400 576 m
-400 528 l
-</path>
-<text matrix="1 0 0 1 -6 51" transformations="translations" pos="408 552" stroke="black" type="label" width="7.982" height="6.177" depth="0" valign="baseline" size="Large" style="math">x</text>
-<path matrix="0 1 -1 0 536 376" stroke="black">
-128 432 m
-128 416 l
-</path>
-<path matrix="0 1 -1 0 536 408" stroke="black">
-128 432 m
-128 416 l
-</path>
-<path matrix="0 1 -1 0 536 456" stroke="black">
-128 432 m
-128 416 l
-</path>
-<path matrix="0 1 -1 0 536 376" stroke="black" arrow="ptarc/normal" rarrow="ptarc/normal">
-128 424 m
-160 424 l
-</path>
-<path matrix="1 0 0 1 0 56" stroke="black" arrow="ptarc/normal" rarrow="ptarc/normal">
-112 480 m
-112 528 l
-</path>
-<text matrix="1 0 0 1 -161 -83" transformations="translations" pos="248 600" stroke="black" type="label" width="18.04" height="6.42" depth="0" valign="baseline" style="math">1cm</text>
-<text matrix="1 0 0 1 -167 -43" transformations="translations" pos="248 600" stroke="black" type="label" width="27.449" height="6.428" depth="1.93" valign="baseline" style="math">1,5cm</text>
-<text matrix="1 0 0 1 1 -9" transformations="translations" pos="224 688" stroke="black" type="label" width="63.208" height="6.815" depth="1.93" valign="baseline">Vista Superior</text>
 </page>
 </ipe>

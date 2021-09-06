@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.2)  1 SEP 2021 11:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.2)  6 SEP 2021 10:57
 entering extended mode
 **./main.tex
 (main.tex
@@ -845,72 +845,72 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 (C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./figuras/contatora_0.pdf, id=26, 305.54149pt x 241.3015pt>
+<./figuras/contatora_0.pdf, id=28, 305.54149pt x 185.09149pt>
 File: ./figuras/contatora_0.pdf Graphic file (type pdf)
 <use ./figuras/contatora_0.pdf>
-Package pdftex.def Info: ./figuras/contatora_0.pdf  used on input line 68.
-(pdftex.def)             Requested size: 204.85802pt x 161.78897pt.
-<./figuras/contatora_1.pdf, id=27, 305.54149pt x 241.3015pt>
+Package pdftex.def Info: ./figuras/contatora_0.pdf  used on input line 71.
+(pdftex.def)             Requested size: 204.85802pt x 124.10103pt.
+<./figuras/contatora_1.pdf, id=29, 305.54149pt x 177.0615pt>
 File: ./figuras/contatora_1.pdf Graphic file (type pdf)
 <use ./figuras/contatora_1.pdf>
-Package pdftex.def Info: ./figuras/contatora_1.pdf  used on input line 71.
-(pdftex.def)             Requested size: 204.85802pt x 161.78897pt.
-<../../Figuras/Trafo_mono_sistema_eletromag.pdf, id=31, 303.66249pt x 78.5053pt
->
-File: ../../Figuras/Trafo_mono_sistema_eletromag.pdf Graphic file (type pdf)
-<use ../../Figuras/Trafo_mono_sistema_eletromag.pdf>
-Package pdftex.def Info: ../../Figuras/Trafo_mono_sistema_eletromag.pdf  used o
-n input line 121.
-(pdftex.def)             Requested size: 320.0935pt x 82.75401pt.
+Package pdftex.def Info: ./figuras/contatora_1.pdf  used on input line 75.
+(pdftex.def)             Requested size: 204.85802pt x 118.71701pt.
+<./figuras/contatora_cotas.pdf, id=31, 332.22318pt x 211.60556pt>
+File: ./figuras/contatora_cotas.pdf Graphic file (type pdf)
+<use ./figuras/contatora_cotas.pdf>
+Package pdftex.def Info: ./figuras/contatora_cotas.pdf  used on input line 95.
+(pdftex.def)             Requested size: 362.77525pt x 231.06522pt.
 
 [1
 
 {C:/Users/cleit/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./figuras/conta
 tora_0.pdf> <./figuras/contatora_1.pdf>]
+<./figuras/circuito_bobina.pdf, id=76, 311.36327pt x 120.8515pt>
+File: ./figuras/circuito_bobina.pdf Graphic file (type pdf)
+<use ./figuras/circuito_bobina.pdf>
+Package pdftex.def Info: ./figuras/circuito_bobina.pdf  used on input line 122.
 
-LaTeX Warning: Citation `krause2013analysis' on page 2 undefined on input line 
-183.
+(pdftex.def)             Requested size: 213.39568pt x 82.82703pt.
+ [2 <./figuras/contatora_cotas.pdf> <./figuras/circuito_bobina.pdf>]
+(C:\Users\cleit\Documents\GitHub\CEME-I-UERJ\Lab - 2021-1\Lab 2\build\main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+[]\OT1/cmr/m/n/10 E. Faus-tino, ``Como fun-ci-ona o con-ta-tor?.'' [][]$\OT1/cm
+tt/m/n/10 https : / / www . youtube . com / watch ? v =
+ []
 
-[2 <../../Figuras/Trafo_mono_sistema_eletromag.pdf>]
-No file main.bbl.
-[3]
+) [3]
 (C:\Users\cleit\Documents\GitHub\CEME-I-UERJ\Lab - 2021-1\Lab 2\build\main.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D5A379E16ED78133AA99C0641750B211;740.
+(rerunfilecheck)             Checksum: A16223D8739747F8DDF07F5E61D193F1;467.
  ) 
 Here is how much of TeX's memory you used:
- 22526 strings out of 479334
- 411044 string characters out of 2857085
- 714523 words of memory out of 3000000
- 39553 multiletter control sequences out of 15000+200000
- 412108 words of font info for 61 fonts, out of 3000000 for 9000
+ 22531 strings out of 479334
+ 411344 string characters out of 2857085
+ 710725 words of memory out of 3000000
+ 39558 multiletter control sequences out of 15000+200000
+ 411154 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,10n,133p,564b,531s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\cleit\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1000.pk><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/cleit/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/cleit/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/cleit/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/c
-leit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17
-.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/cleit/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+ 102i,11n,133p,991b,527s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/cleit/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/cleit/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/cleit/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/cleit/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
+/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr7.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on "C:\Users\cleit\Documents\GitHub\CEME-I-UERJ\Lab - 2021-1\Lab
- 2\build\main.pdf" (3 pages, 259070 bytes).
+ 2\build\main.pdf" (3 pages, 277359 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
