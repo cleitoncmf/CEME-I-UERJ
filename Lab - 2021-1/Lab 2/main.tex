@@ -131,17 +131,14 @@ Para obter as equações mecânicas, ou seja, as equações diferenciais de $x$ 
 m a = \displaystyle \sum \text{Forças}
 \end{equation}
 %
-onde $m$ e $a$ são a massa e a aceleração da parte móvel. Considerem três forças no sistema, a força magnética, a força da mola e a força do atrito. Lembrem que as equações devem estar em função de $x$, $v$ e $i$. Ou seja, o $a$ não pode aparecer
-
-
-A equação diferencial de $x$ é direta. 
+onde $m$ e $a$ são a massa e a aceleração da parte móvel. Considerem três forças no sistema, a força magnética, a força da mola e a força do atrito aerodinâmico ($-b v$, onde $b$ é o coeficiente de atrito). Lembrem que as equações devem estar em função de $x$, $v$ e $i$. Ou seja, o $a$ não pode aparecer. A equação diferencial de $x$ é direta, ou seja, é uma definição geral da cinética. 
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Tarefas}
+\section{Tarefas Iniciais}
 
 
 \begin{enumerate}
@@ -153,137 +150,82 @@ A equação diferencial de $x$ é direta.
 \end{enumerate}
 
 
-%
-%A Figura~\ref{fig:trafo:quadri} possui a representação em quadripolo\footnotemark de um transformador monofásicos. Neste circuito, $i_1$ e $i_2$ são as correntes que entram nos enrolamentos primário e secundário do transformador. Além disso, $e_1$ e $e_2$ são as tensões induzidas destes enrolamentos. A caixa nomeada \textbf{Sistema Eletromag.}, por sua vez, representa a interação eletromagnética no circuito. Ou seja, ela representa as seguintes equações:
-%
-%\begin{equation}
-%\begin{bmatrix}
-%\lambda_1(t)\\[5pt]
-%\lambda_2(t)
-%\end{bmatrix} =
-%\begin{bmatrix}
-%L_{11} & L_{12}\\[5pt]
-%L_{21} & L_{22}
-%\end{bmatrix}
-%\begin{bmatrix}
-%i_1(t)\\[5pt]
-%i_2(t)
-%\end{bmatrix}
-%\label{eq:lambda}
-%\end{equation} 
-%
-%
-%\begin{equation}
-%\begin{bmatrix}
-%e_1(t)\\[5pt]
-%e_2(t)
-%\end{bmatrix} =
-%\frac{d}{dt} 
-%\begin{bmatrix}
-%\lambda_1(t)\\[5pt]
-%\lambda_2(t)
-%\end{bmatrix}
-%\label{eq:e}
-%\end{equation}
-%
-%
-%\footnotetext{Deixo como curiosidade a página sobre \href{https://pt.wikipedia.org/wiki/Quadripolo}{quadripolos} na Wikipedia. Este assunto sempre aparece nos últimos capítulos dos livros de circuito, mas por questão tempo nem sempre é abordado em aula.}
-%
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=0.75\linewidth]{../../Figuras/Trafo_mono_sistema_eletromag.pdf}
-%\caption{Representação em quadripolo do transformador}
-%\label{fig:trafo:quadri}
-%\end{figure}
-%
-%
-%O circuito ainda apresenta três resistências e uma fonte de tensão. $R_1$ e $R_2$ são as resistências dos enrolamentos e $R_L$ a resistência de carga.  
-%
-%O primeiro objetivo da simulação é computar as correntes $i_1$ e $i_2$ neste circuito. Para isso, o primeiro passo é obter duas equações diferencias que descrevam estas correntes em função da tensão apicada no primário. Ou seja, obter o seguinte par de equações:
-%
-%\begin{equation}
-%\frac{d i_1}{dt} = f_1(t,v_1, i_1, i_2)
-%\end{equation} 
-%
-%\begin{equation}
-%\frac{d i_2}{dt} = f_2(t,v_1,  i_1, i_2)
-%\end{equation} 
-%
-%Observe que as funções $f_1$ e $f_2$ são obtidas combinado a lei das malhas no circuito da figura~\ref{fig:trafo:quadri} com as equações (\ref{eq:lambda}) e (\ref{eq:e}). Quando montar as equações, utilize os sentidos de tensões e correntes indicados na figura, ou problemas numéricos poderão aparecer.
-%
-%
-%O segundo passo consiste em resolver este sistema de equações. Mas ao invés de seguir as metodologias aprendidas em Cálculo III, resolveremos este sistema de forma numérica usando \textbf{SciPy}. Mais especificamente, utilizando a função \verb|scipy.integrate.odeint|, que realiza a integração numérica de um sistema de equações diferencias de primeira ordem. O link a seguir possui um exemplo de utilização desta função para resolver um sistema de duas equações diferencias:
-%
-%\begin{itemize}
-%\item \href{https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.odeint.html}{scipy.integrate.odeint}
-%\end{itemize}
-%
-%Após calcular as correntes com a função a função \verb|scipy.integrate.odeint|, podemos calcular fluxo concatenado e tensões induzidas utilizando as definições já apresentadas.
-%
-%
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{Dados do transformador}
-%
-%
-%Antes de apresentar os dados, é necessário definir alguns parâmetros que só serão apresentados no futuro nas aulas de teoria. Estes parâmetros são as indutâncias de magnetização ($L_{m1}$ e $L_{m2}$) e de dispersão ($L_{l1}$ e $L_{l2}$). A indutância de magnetização, como o nome já diz, representa a magnetização do transformador, ou seja, permite o calculo do fluxo que flui através das duas bobinas. As indutâncias de dispersão representam, por outro lado, se relacionam com as parcelas de fluxo que se espalha pelo ar.
-%
-%
-%\begin{table}[H]
-%\centering
-%\caption{Parâmetros do Transformador}
-%\begin{tabular}{ccc}
-%\hline
-%\textbf{Parâmetro} & \textbf{Notação} & \textbf{Valor}\\ \hline
-%Tensão nominal do primário & $V_1$ & 127V\\
-%Tensão nominal do secundário & $V_2$ & 480V\\
-%Potência nominal & - & 5kVA\\
-%Indutância de dispersão do primário & $L_{l1}$ & 0.42mH\\
-%Indutância de dispersão do secundário & $L_{l2}$ & 6.11mH\\ 
-%Indutância de Magnetização vista do primário & $L_{m1}$ & 0.17113H\\ 
-%Indutância de Magnetização vista do secundário & $L_{m2}$ & 2.44456H\\ 
-%Resistência da bobina primária & $R_{1}$ & 0.2$\Omega$\\ 
-%Resistência da bobina secundária & $R_{2}$ & 2.8$\Omega$\\ 
-%\hline
-%\end{tabular}
-%\end{table}
-%
-%Pra fins de simplicidade, considere que os números de espiras $N_1$ e $N_2$ são numericamente iguais as tensões nominais.
-%
-%De acordo com a referência \cite[Capítulo 1]{krause2013analysis}, as indutâncias próprias e mútuas de um transformador são dadas por:
-%
-%\begin{equation}
-%\mathbf{L} = 
-%\begin{bmatrix}L_{11} & L_{12}\\[5pt] 
-%L_{21} & L_{22}\end{bmatrix} = 
-%\begin{bmatrix}L_{l1}+L_{m1} & \frac{N2}{N1} L_{m1}\\[5pt] 
-%\frac{N1}{N2} L_{m2} & L_{l2}+L_{m2}\end{bmatrix}
-%\end{equation}
-%
-%
-%É possível mostrar que:
-%
-%\begin{equation}
-%\frac{N1}{N2} L_{m2} = \frac{N2}{N1} L_{m1}
-%\end{equation}
-%
-%
-%Utilize este resultados para obter as indutâncias próprias e mútuas do transformador.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\section{Casos teste}
-%
-%
-%
-%
-%
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Dados do Problema}
+
+
+
+
+
+\begin{table}[H]
+\centering
+\caption{Parâmetros da Contatora}
+\begin{tabular}{ccc}
+\hline
+\textbf{Parâmetro} & \textbf{Notação} & \textbf{Valor}\\ \hline
+Massa da parte móvel & $m$ & 100$g$\\
+Coeficiente de atrito aerodinâmico & $b$ & 0.2 $kg/s$\\
+Número de Espiras & $N$ & 1000\\
+Resistência da Bobina & $R$ & 1$k\Omega$\\
+Constante de força da mola & $k$ & 1 $kg/s^2$\\ 
+Comprimento da mola quando não estressada & $x_r$ & 1$cm$\\ 
+Tensão de alimentação & $V_{in}$ & -\\ 
+\hline
+\end{tabular}
+\end{table}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Casos Teste}
+
+Os casos teste serão divididos em três parte: a parte 1  servirá simplesmente para analisar a parte mecânica do sistema; a parte 2 servirá para analisar a interação eletromecânica e as limitações da analise; e a parte 3 para. Em todos os casos utilizaremos vetores com 10000 pontos. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Parte 1: limites da análise - precisão}
+
+Primeiramente:
+
+\begin{itemize}
+\item Configure a tensão de alimentação para 20V;
+
+\item Configure a corrente inicial e a velocidade inicial para 0 (zero);
+
+\item Configure a posição inicial para $x_r$, ou seja, a condição em que a mola está relaxada;
+
+\item Antes de similar, tente imaginar o que deveria acontecer;
+
+\item Execute a simulação para 10s;
+
+\item O que você imaginou aconteceu nos resultados?
+
+\item analise em especial o comportamento da corrente e da posição. Talvez seja necessário dar uma zoom no gráfico de corrente. Use o comando \verb|plt.xlim(...)| para isso. 
+\end{itemize}
+
+
+Em seguida, repita a simulação anterior, mas desta vez considerando um tempo final de simulação de $10ms$. Que diferença é observado especialmente com a corrente? Porque ocorreu esta diferença?
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Parte 3: limites da análise - limites mesmo}
+
+Repita o item anterior, desta vez considerando 35V de alimentação e um tempo de simulação de 20s. O que aconteceu com os resultados e como você pode interpretar isso?
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Parte 4: Testes}
+
+Faça 3 simulações de 10s, uma com a tensão de alimentação de 10V, outra 20V e outra 34V. Anote os valores de regime permanente da corrente e da posição e use-os para para calcular a força magnética em cada um dos casos.
 
 
 
