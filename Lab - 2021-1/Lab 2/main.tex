@@ -173,7 +173,7 @@ Coeficiente de atrito aerodinâmico & $b$ & 0.2 $kg/s$\\
 Número de Espiras & $N$ & 1000\\
 Resistência da Bobina & $R$ & 1$k\Omega$\\
 Constante de força da mola & $k$ & 1 $kg/s^2$\\ 
-Comprimento da mola quando não estressada & $x_r$ & 1$cm$\\ 
+Condição a qual a mola não está estressada & $x_r$ & 1$cm$\\ 
 Tensão de alimentação & $V_{in}$ & -\\ 
 \hline
 \end{tabular}
@@ -186,12 +186,35 @@ Tensão de alimentação & $V_{in}$ & -\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Casos Teste}
 
-Os casos teste serão divididos em três parte: a parte 1  servirá simplesmente para analisar a parte mecânica do sistema; a parte 2 servirá para analisar a interação eletromecânica e as limitações da analise; e a parte 3 para. Em todos os casos utilizaremos vetores com 10000 pontos. 
+Os casos teste serão divididos em quatro partes: a parte 1  servirá simplesmente para analisar a parte mecânica do sistema; as partes 2 e 3 servirão para analisar as limitações da analise; e a parte 4 para comparar resultados. Em todos os casos utilizaremos vetores com 10000 pontos. 
+
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Parte 1: limites da análise - precisão}
+\subsection{Parte 1: parte mecânica isolada}
+
+
+\begin{itemize}
+\item Configure a tensão de alimentação para 0V (zero), assim não teremos interferência da parte elétrica;
+
+\item Configure a corrente inicial e a velocidade inicial para 0 (zero);
+
+\item Configure a posição inicial para $0.8x_r$, ou seja, a condição em que a mola está ligeiramente comprimida;
+
+\item Antes de similar, tente imaginar o que deveria acontecer com o sistema;
+
+\item Execute a simulação para 10s;
+
+\item O que você imaginou aconteceu nos resultados?
+
+\end{itemize}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Parte 2: limites da análise - precisão}
 
 Primeiramente:
 
@@ -216,7 +239,7 @@ Em seguida, repita a simulação anterior, mas desta vez considerando um tempo f
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Parte 3: limites da análise - limites mesmo}
+\subsection{Parte 2: limites da análise - condições impossíveis}
 
 Repita o item anterior, desta vez considerando 35V de alimentação e um tempo de simulação de 20s. O que aconteceu com os resultados e como você pode interpretar isso?
 
