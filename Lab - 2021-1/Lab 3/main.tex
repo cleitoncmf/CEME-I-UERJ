@@ -174,12 +174,12 @@ Considerando as equações de fluxo concatenado, obtenha:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Casos Teste}
 
-As próximas subseções apresentam os casos testes que devem ser simulados. Todas as simulações devem ser realizadas no google colab.
+As próximas subseções apresentam os casos testes que devem ser simulados usando o Google Colab.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Cálculo de tensão induzida: máquina em vazio}
+\subsection{Tensão induzida: máquina em vazio 1}
 
 Considerando que:
 
@@ -197,6 +197,48 @@ Considerando que:
 \end{enumerate}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Tensão induzida: máquina em vazio 2}
+
+Repita o caso anterior considerando que a velocidade de rotação é 3200RPM.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Tensão induzida: plena carga 1}
+
+Considerando que
+
+\begin{itemize}
+\item As bobinas do estator conduzem correntes:
+	
+	\begin{equation}
+		i_a = 8 \sin(120\pi t - \pi/6)
+	\end{equation}
+	\begin{equation}
+		i_b = 8 \sin(120\pi t - \pi/6 - 2\pi/3)
+	\end{equation}
+	\begin{equation}
+		i_c = 8 \sin(120\pi t - \pi/6 + 2\pi/3)
+	\end{equation}
+
+\item A bobina do rotor é alimentada com 2A CC;
+\item A máquina é mantida girando a 3600RPM;
+\end{itemize}
+
+
+
+
+\begin{enumerate}
+\item Plote as tensões induzidas das bobinas
+\item A partir dos resultados, determine a frequência e a amplitude das tensões induzidas.
+\item A partir dos resultados de tensão e corrente, compute a potência instantânea trifásica das bobinas do estator
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Tensão induzida: plena carga 1}
+
+Repita o caso anterior considerando que a velocidade de rotação é 3200RPM.
 
 
 \end{document}
