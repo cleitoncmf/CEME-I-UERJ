@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  18 OCT 2021 08:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.30)  2 NOV 2021 21:48
 entering extended mode
 **./main.tex
 (main.tex
@@ -848,7 +848,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 (C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./figuras/maq_2polos.pdf, id=44, 948.24178pt x 931.49152pt>
+<./figuras/maq_2polos.pdf, id=64, 948.24178pt x 931.49152pt>
 File: ./figuras/maq_2polos.pdf Graphic file (type pdf)
 <use ./figuras/maq_2polos.pdf>
 Package pdftex.def Info: ./figuras/maq_2polos.pdf  used on input line 67.
@@ -857,16 +857,16 @@ Package pdftex.def Info: ./figuras/maq_2polos.pdf  used on input line 67.
 [1
 
 {C:/Users/cleit/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./figuras/maq_2
-polos.pdf>] [2] [3]
+polos.pdf>] [2] [3] [4]
 (C:\Users\cleit\Documents\GitHub\CEME-I-UERJ\Lab - 2021-1\Lab 3\build\main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9BE4A4DBCC0CB75CBA3F1C3ED5EEFA8F;1611.
+(rerunfilecheck)             Checksum: 0FF7CBCE27908CE61B83B6C48A157EE7;2440.
  ) 
 Here is how much of TeX's memory you used:
- 22851 strings out of 478927
- 419848 string characters out of 2852535
- 726848 words of memory out of 3000000
- 40279 multiletter control sequences out of 15000+600000
+ 22868 strings out of 478927
+ 420062 string characters out of 2852535
+ 726846 words of memory out of 3000000
+ 40284 multiletter control sequences out of 15000+600000
  411980 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,9n,133p,754b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -888,9 +888,9 @@ blic/amsfonts/cm/cmr8.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti8.pfb>
 Output written on "C:\Users\cleit\Documents\GitHub\CEME-I-UERJ\Lab - 2021-1\Lab
- 3\build\main.pdf" (3 pages, 258822 bytes).
+ 3\build\main.pdf" (4 pages, 264823 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 456 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 

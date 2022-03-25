@@ -172,7 +172,7 @@ Considerando as equações de fluxo concatenado, obtenha:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Casos Teste}
+\section{Casos Teste: Tensão Induzida}
 
 As próximas subseções apresentam os casos testes que devem ser simulados usando o Google Colab.
 
@@ -239,6 +239,82 @@ Considerando que
 \subsection{Tensão induzida: plena carga 1}
 
 Repita o caso anterior considerando que a velocidade de rotação é 3200RPM.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Casos Teste: Torque}
+
+Utilizando scripts no Google Colab, compute e plote o toque desenvolvido pela máquina nas seguintes condições.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Torque: plena carga 1}
+
+Considerando que
+
+\begin{itemize}
+\item As bobinas do estator conduzem correntes:
+	
+	\begin{equation}
+		i_a = 8 \sin(120\pi t - \pi/6)
+	\end{equation}
+	\begin{equation}
+		i_b = 8 \sin(120\pi t - \pi/6 - 2\pi/3)
+	\end{equation}
+	\begin{equation}
+		i_c = 8 \sin(120\pi t - \pi/6 + 2\pi/3)
+	\end{equation}
+
+\item A bobina do rotor é alimentada com 2A CC;
+\item A máquina é mantida girando a 3600RPM;
+\end{itemize}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Torque: plena carga 2}
+
+Repita o caso anterior , mas desta vez considerando que a máquina gira a 3200RPM
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Torque: monofásico}
+
+\begin{itemize}
+\item As bobinas do estator conduzem correntes:
+	
+	\begin{equation}
+		i_a = 8 \sin(120\pi t - \pi/6)
+	\end{equation}
+	\begin{equation}
+		i_b = 0
+	\end{equation}
+	\begin{equation}
+		i_c = 0
+	\end{equation}
+
+\item A bobina do rotor é alimentada com 2A CC;
+\item A máquina é mantida girando a 3600RPM;
+\end{itemize}
+
+
+
+
+
+\section{Relatório}
+
+Além dos gráficos, o relatório deverá conter uma análise detalhada dos resultados envolvendo:
+
+\begin{itemize}
+\item Explicação dos resultados
+\item Comparação entre os diferentes casos
+\end{itemize}
+
 
 
 \end{document}
