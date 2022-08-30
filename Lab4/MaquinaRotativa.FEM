@@ -90,7 +90,7 @@
 [CircuitProps]  = 2
   <BeginCircuit>
     <CircuitName> = "EstatorA"
-    <TotalAmps_re> = 0
+    <TotalAmps_re> = 2
     <TotalAmps_im> = 0
     <CircuitType> = 1
   <EndCircuit>
