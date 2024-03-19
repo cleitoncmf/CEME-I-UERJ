@@ -10,7 +10,7 @@ write (f, "Posicao,Fluxo_Concatenado_rotor,Fluxo_Concatenado_estatorA,Fluxo_Conc
 
 
 -- Intervalo entre os ângulos 
-delta_angulo = 90
+delta_angulo = 30
 
 
 
